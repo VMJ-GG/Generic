@@ -91,4 +91,4 @@ saprebbero scrivere una funzione utilizzando JavaScript???😓😅)
 ### Calcolo del valore del numero di Nepero (*e*)
 * Ehm...non mi ricordo come si chiama😅
 
-Per il momento é tutto! Al prossimo **update!**😄
+Per il momento é tutto! Al prossimo **update!** 😄
