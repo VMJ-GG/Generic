@@ -14,7 +14,6 @@ module Euler
       def initialize(name, type)
         @name = name
         @type = type
-        @class = nil
         @body = proc {}
         @arguments = Euler::Arguments.new
       end

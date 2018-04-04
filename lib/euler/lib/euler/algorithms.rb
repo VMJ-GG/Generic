@@ -1,23 +1,24 @@
 # fronzen_string_literal: true
 module Euler
   module Algorithms
-    attr_reader :added
+    class << self
+      SUPPORTED_TYPES = [:mathematic, :cryptographic]
 
-    SUPPORTED_TYPES = [:mathematic, :cryptographic]
+      def add(*args)
+        name, categorization = args.first.shift
+        type, classification = categorization
 
-    def add(**args, &block)
-      name, categorization = args.shift
-      type, classification = categorization
-
-      case type
-        when :mathematic
-          ref = MathematicAlgorithm.new(name, classification)
-          block.call ref, ref.arguments, ref.options
-        when :cryptographic
-          ref = CryptographicAlgorithm.new(name, classification)
-          block.call ref, ref.arguments, ref.options
-        else
-          raise ArgumentError, "Algorithm NOT supported! Possible values are #{SUPPORTED_TYPES.map(&:capitalize).join(', ')}."
+        case type
+          when :mathematic
+            ref = MathematicAlgorithm.new(name.to_s, classification)
+            yield(ref, ref.arguments, ref.options) if block_given?
+          when :cryptographic
+            ref = CryptographicAlgorithm.new(name.to_s, classification)
+            yield(ref, ref.arguments, ref.options) if block_given?
+          else
+            raise ArgumentError, "Algorithm NOT supported!" +
+              "Possible values are #{Algorithms::SUPPORTED_TYPES.map(&:capitalize).join(', ')}."
+        end
       end
     end
   end

@@ -1,6 +1,6 @@
-require 'euler'
-
 class StaticController < ApplicationController
+  include Euler::DSL
+
   def index
   end
 

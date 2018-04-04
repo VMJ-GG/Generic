@@ -1,4 +1,4 @@
-define 'caesar' => [:cryptographic, :substitution] do |obj, args, opts|
+define :caesar => [:cryptographic, :substitution] do |obj, args, opts|
   args.text = 'Lorem Ipsum Dolor Sit Amet'
   args.body[0] = ('a'..'z').to_a
   args.body[1] = :always_change
