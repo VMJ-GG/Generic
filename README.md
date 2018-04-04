@@ -10,7 +10,7 @@ Di seguito sono elencati tutti i metodi che costituiscono parte integrate
 dell'applicazione (per essere espliciti: tutti quelli definiti direttamente da
 noi e non dall'utente) divisi per tipologia e con annessi argomenti.
 
-### Metodi Crittografici
+## Metodi Crittografici
 * Cesare (standard, parametrico e con doppia chiave):
     - testo in chiaro
     - chiave numerica (eventualmente doppia, per versione con separazione fra vocali e consonanti)
@@ -34,12 +34,12 @@ noi e non dall'utente) divisi per tipologia e con annessi argomenti.
     - testo in chiaro
     - chiave numerica
 
-### Metodi per il Calcolo Numerico
+## Metodi per il Calcolo Numerico
 I metodi per il calcolo numerico sono più complicati soprattutto per ciò che
 riguarda la gestione degli argomenti poiché in realtà si suddividono in ulteriori
 4 categorie a seconda del risultato finale che si vuole ottenere.
 
-#### Calcolo della Radice Quadrata di un numero
+### Calcolo della Radice Quadrata di un numero
 * Metodo Babilonese
     - radicando
     - numero di iterazioni
@@ -53,43 +53,36 @@ riguarda la gestione degli argomenti poiché in realtà si suddividono in ulteri
     - numero di iterazioni
     - (valore iniziale -> solo a livello di codice e pari a 0.5)
 
-#### Calcolo del valore di PI Greco
+### Calcolo del valore di PI Greco
 * Metodo di Eulero
     - numero di iterazioni
-
 * Metodo di Leibniz
     - numero di iterazioni
-
 * Metodo di Archimede
     - numero di iterazioni (in realtà é il numero di lati che viene moltiplicato
       per 2 ad ogni iterazione, simulando un poligono con numero di lati pari a 2n)
-
 * Metodo di Montecarlo
     - numero di iterazioni (**N.B.** molto più alto degli altri, ca 1000 volte maggiore)
-
 * Metodo di Nilakantha
     - numero di iterazioni
 
-#### Calcolo degli zeri di una funzione fra 2 estremi dati
+### Calcolo degli zeri di una funzione fra 2 estremi dati
 
 * Metodo di bisezione
     - 1st estremo (a)
     - 2nd estremo (b)
     - numero di iterazioni
     - funzione
-
 * Metodo delle corde
     - 1st estremo (a)
     - 2nd estremo (b)
     - numero di iterazioni
     - funzione
-
 * Metodo delle secanti
     - 1st estremo (a)
     - 2nd estremo (b)
     - numero di iterazioni
     - funzione
-
 * Metodo delle tangenti
     - 1st estremo (a)
     - 2nd estremo (b)
