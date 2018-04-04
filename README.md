@@ -86,11 +86,9 @@ riguarda la gestione degli argomenti poiché in realtà si suddividono in ulteri
 
 **N.B.:** La funzione **NON** deve essere scritta in codice JS poiché altrimenti
 si rischia di eseguire codice maligno (e poi, siamo realisti, quanti utenti
-saprebbero scrivere una funzione utilizzando JavaScript???😓😅
+saprebbero scrivere una funzione utilizzando JavaScript???😓😅)
 
 ### Calcolo del valore del numero di Nepero (*e*)
 * Ehm...non mi ricordo come si chiama😅
 
-Per il momento é tutto!😄
-
-Al prossimo **UPDATE!!!**
+Per il momento é tutto! Al prossimo **update!**😄
