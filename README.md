@@ -14,22 +14,18 @@ noi e non dall'utente) divisi per tipologia e con annessi argomenti.
 * Cesare (standard, parametrico e con doppia chiave):
     - testo in chiaro
     - chiave numerica (eventualmente doppia, per versione con separazione fra vocali e consonanti)
-
 * Atbash (molto simile a Cesare)
     - testo in chiaro
     - chiave numerica
-
 * Polibio
     - testo in chiaro
     - n. di colonne per tabella di cifratura differente
     - (tabella di cifratura -> in realtà necessaria solo a livello di codice)
-
 * Vigenere
     - testo in chiaro
     - chiave alfabetica (a livello di codice, necessaria una funzione per la
       generazione della chiave di lunghezza appropriata anche randomicamente)
     - (tabella di cifratura -> v. Polibio)
-
 * Pizzini
     - testo in chiaro
     - chiave numerica
@@ -67,7 +63,6 @@ riguarda la gestione degli argomenti poiché in realtà si suddividono in ulteri
     - numero di iterazioni
 
 ### Calcolo degli zeri di una funzione fra 2 estremi dati
-
 * Metodo di bisezione
     - 1st estremo (a)
     - 2nd estremo (b)
@@ -93,8 +88,9 @@ riguarda la gestione degli argomenti poiché in realtà si suddividono in ulteri
 si rischia di eseguire codice maligno (e poi, siamo realisti, quanti utenti
 saprebbero scrivere una funzione utilizzando JavaScript???😓😅
 
-#### Calcolo del valore del numero di Nepero (*e*)
+### Calcolo del valore del numero di Nepero (*e*)
 * Ehm...non mi ricordo come si chiama😅
 
 Per il momento é tutto!😄
+
 Al prossimo **UPDATE!!!**
